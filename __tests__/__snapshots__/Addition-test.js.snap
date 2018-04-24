@@ -59,7 +59,7 @@ exports[`renders correctly 1`] = `
           uppercase={false}
           virtual={undefined}
         >
-           Addition 
+           Addition  v0.1
         </Text>
       </View>
     </View>

@@ -11,7 +11,7 @@ export default class Addition extends Component {
       <Container >
         <Header>
           <Body>
-            <Text> Addition </Text>
+            <Text> Addition  v0.1</Text>
           </Body>
         </Header>
         <Content>
@@ -24,14 +24,14 @@ export default class Addition extends Component {
             </Item>
             <View style={styles.buttonContainer}>
               <Button iconLeft success onPress={() => {
-                this.setState({ result:(this.state.input1 && this.state.input2) ?this.state.input1 + this.state.input2 : null })
+                this.setState({ result: (this.state.input1 && this.state.input2) ? this.state.input1 + this.state.input2 : null })
               }}>
                 <Icon name='add' />
                 <Text>Add</Text>
               </Button>
             </View>
             <View style={styles.textContainer}>
-              <Text >{ this.state.result ? 'Result= '+ this.state.result : null}</Text>
+              <Text >{this.state.result ? 'Result= ' + this.state.result : null}</Text>
             </View>
           </View>
         </Content>
